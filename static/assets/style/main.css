@@ -1,0 +1,113 @@
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+ul {
+    list-style: none;
+}
+button,
+input,
+select,
+textarea {
+    margin: 0;
+}
+html,
+body {
+    box-sizing: border-box;
+    height: 100%;
+}
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+img,
+embed,
+iframe,
+object,
+video {
+    height: auto;
+    max-width: 100%;
+}
+audio {
+    max-width: 100%;
+}
+iframe {
+    border: 0;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+td,
+th {
+    padding: 0;
+    text-align: left;
+}
+
+body {
+    font-family: 'Lato', 'Sans-serif';
+}
+
+#__next {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+}
+
+.logo {
+    margin: 0;
+    padding: 0;
+    color: #000;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
