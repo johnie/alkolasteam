@@ -93,7 +93,36 @@ body {
     align-items: center;
 }
 
-.header {
+.header__inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__first {
+    border-right: 2px solid #ccc;
+    margin-right: 2em;
+    padding-right: 2em;
+}
+
+.header__second h2 {
+    font-size: 1.8em;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+.header__second p {
+    margin-bottom: 10px;
+}
+
+.header__second a {
+    text-decoration: none;
+    color: rgb(156, 85, 3);
+}
+
+.header__second strong {
+    margin-right: 5px;
+    margin-bottom: 10px;
 }
 
 .logo {
@@ -110,4 +139,19 @@ body {
     max-width: 200px;
     display: block;
     margin: 0 auto;
+}
+
+@media (max-width: 680px) {
+    .header__inner {
+        display: block;
+    }
+
+    .header__first {
+        border-right: none;
+        margin-right: 0;
+        padding-right: 0;
+        border-bottom: 2px solid #ccc;
+        margin-bottom: 2em;
+        padding-bottom: 2em;
+    }
 }
