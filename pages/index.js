@@ -26,13 +26,32 @@ function IndexPage() {
             <div className="main">
                 <div className="header">
                     <div className="header__inner">
-                        <h1 className="logo">
-                            <img
-                                src="/static/assets/images/alkolasteam.png"
-                                alt="Logga"
-                            />
-                            <span>Alkolåsteam</span>
-                        </h1>
+                        <div className="header__first">
+                            <h1 className="logo">
+                                <img
+                                    src="/static/assets/images/alkolasteam.png"
+                                    alt="Logga"
+                                />
+                                <span>Alkolåsteam</span>
+                            </h1>
+                        </div>
+                        <div className="header__second">
+                            <h2>Kontakt</h2>
+                            <p>
+                                <strong>Adress:</strong>Söderbyvägen 4,
+                                <br />
+                                195 60 Arlandastad
+                            </p>
+                            <p>
+                                <strong>Email:</strong>
+                                <a href="mailto:info@radioteknik.se">
+                                    info@radioteknik.se
+                                </a>
+                            </p>
+                            <p>
+                                <strong>Tel:</strong>08-623 16 80
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
